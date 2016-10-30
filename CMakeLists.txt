@@ -79,6 +79,8 @@ endif()
 
 set(ASMTK_SRC
   ${ASMTK_SOURCE_DIR}/asmtk/asmtk.h
+  ${ASMTK_SOURCE_DIR}/asmtk/asmlinker.cpp
+  ${ASMTK_SOURCE_DIR}/asmtk/asmlinker.h
   ${ASMTK_SOURCE_DIR}/asmtk/asmparser.cpp
   ${ASMTK_SOURCE_DIR}/asmtk/asmparser.h
   ${ASMTK_SOURCE_DIR}/asmtk/asmtokenizer.cpp
